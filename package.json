@@ -7,8 +7,10 @@
   },
   "dependencies": {
     "@popperjs/core": "^2.11.8",
+    "axios": "^1.6.2",
     "bootstrap": "^5.3.2",
-    "vue": "^3.0.4"
+    "vue": "^3.0.4",
+    "vuex": "^4.0.2"
   },
   "devDependencies": {
     "@vue/compiler-sfc": "^3.0.4",

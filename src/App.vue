@@ -1,14 +1,17 @@
 <template>
-  <HelloWorld />
+  <NavBar />
+  <Profile />
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import NavBar from "/@/components/NavBar.vue";
+import Profile from "/@/components/Profile.vue";
 
 export default {
   name: "App",
   components: {
-    HelloWorld,
+    NavBar,
+    Profile,
   },
 };
 </script>
