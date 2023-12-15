@@ -1,4 +1,4 @@
-# 서버
+## 서버
 ```bash
 npm install sqlite3
 npm install express
@@ -25,3 +25,11 @@ app.use(cors())
 cors 미들웨어를 불러와 express와 연동해주면서 모든 Cross Origin 요청을 허용한다.  
 터미널에서 ```node index.js```를 실행하면 database 서버가 실행된다.
 <br />
+
+## 역할 
+파일 | 역할
+-- | -- 
+type.js | 열거형과 같은 역할을 할 수 있는 사용자 정의 키 값들을 가짐
+initial.js | 테이블을 생성하고 값을 넣음, 각 테이블을 함수로 분리
+get.js | Database에서 데이터 조회
+
